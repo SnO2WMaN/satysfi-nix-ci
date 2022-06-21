@@ -1,0 +1,18 @@
+@require: stdjareport
+@require: uline/uline
+
+document(|
+    title = { はじめての\SATySFi; };
+    author = { SnO2WMaN };
+    show-title = false;
+    show-toc = false;
+|)'<
+    +chapter{}<
+        +section{}<
+            +p{ 叫べ心の形を！！ }
+        >
+        +section{ uline }<
+            +p{ \uline{ 下線 }テスト }
+        >
+    >
+>
