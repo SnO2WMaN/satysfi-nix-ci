@@ -3,8 +3,8 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     devshell.url = "github:numtide/devshell";
-    satyxin.url = "github:SnO2WMaN/satyxin";
-    satyxinur.url = "github:SnO2WMaN/satyxinur";
+    satyxin.url = "github:SnO2WMaN/satyxin"; # "path:/home/sno2wman/src/ghq/github.com/SnO2WMaN/satyxin";
+    satyxinur.url = "github:SnO2WMaN/satyxinur"; # "path:/home/sno2wman/src/ghq/github.com/SnO2WMaN/satyxinur";
     satysfi-tools.url = "github:SnO2WMaN/satysfi-tools-nix";
 
     flake-compat = {
@@ -39,7 +39,10 @@
           src = ./src;
           filename = "main.saty";
           buildInputs = with pkgs.satyxinPackages; [
-            satysfi-uline
+            uline
+            bibyfi
+            fss
+            base
           ];
         };
         defaultPackage = packages.main;

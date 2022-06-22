@@ -302,6 +302,54 @@
         "satyxinur": "satyxinur"
       }
     },
+    "satysfi-base": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1643503102,
+        "narHash": "sha256-nPsuVsYmo3d1XrQFoNuJ+PV5cMkJmFwGpeO8bcUZOEY=",
+        "owner": "nyuichi",
+        "repo": "satysfi-base",
+        "rev": "603fedeea57816e1b33de488fe92effc45b4c625",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nyuichi",
+        "repo": "satysfi-base",
+        "type": "github"
+      }
+    },
+    "satysfi-bibyfi": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1590641889,
+        "narHash": "sha256-ppX4i5924F/DTlSQmloXdGOeCaDMJJKq3M/NE2khVvA=",
+        "owner": "namachan10777",
+        "repo": "BiByFi",
+        "rev": "fa9a91d8d9ee3853f56060494452bcfe3b690639",
+        "type": "github"
+      },
+      "original": {
+        "owner": "namachan10777",
+        "repo": "BiByFi",
+        "type": "github"
+      }
+    },
+    "satysfi-fonts-junicode": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653109723,
+        "narHash": "sha256-id4xQWsVpYjYxyVXQHhMMOWv0YqzvmJ+sYS2NrhTVi8=",
+        "owner": "na4zagin3",
+        "repo": "SATySFi-fonts-junicode",
+        "rev": "331911ba9102d7cc489549a576a60e33affacc76",
+        "type": "github"
+      },
+      "original": {
+        "owner": "na4zagin3",
+        "repo": "SATySFi-fonts-junicode",
+        "type": "github"
+      }
+    },
     "satysfi-formatter": {
       "flake": false,
       "locked": {
@@ -316,6 +364,22 @@
         "owner": "usagrada",
         "ref": "v0.1.1",
         "repo": "satysfi-formatter",
+        "type": "github"
+      }
+    },
+    "satysfi-fss": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1621524057,
+        "narHash": "sha256-tS48saaPxIsqamNdHkiwkwGQ8bE5FbYRQqEJjRTqCQY=",
+        "owner": "na4zagin3",
+        "repo": "satysfi-fss",
+        "rev": "1021e7c9e2a7319aac06f935c7bad897caadd178",
+        "type": "github"
+      },
+      "original": {
+        "owner": "na4zagin3",
+        "repo": "satysfi-fss",
         "type": "github"
       }
     },
@@ -376,11 +440,11 @@
     },
     "satyxin": {
       "locked": {
-        "lastModified": 1655689242,
-        "narHash": "sha256-UCx7uI1vcUyIOSXavz8Zqgmm5fVb/0ueTh+aN6D5phE=",
+        "lastModified": 1655904369,
+        "narHash": "sha256-j1+x2PGIg/npPs1EBEJmgOb1Pho5WfHkbeCVpFVK0YA=",
         "owner": "SnO2WMaN",
         "repo": "satyxin",
-        "rev": "e49832900365ea5542d50b34966e438e436bf63b",
+        "rev": "1913ca8d8db59f6f645015c3fbbf219d7f074237",
         "type": "github"
       },
       "original": {
@@ -391,11 +455,11 @@
     },
     "satyxin_2": {
       "locked": {
-        "lastModified": 1655813247,
-        "narHash": "sha256-MGdKvDts1ZT28AUV07n/nNR2nDwd3m+zsnyxVRxXCOs=",
+        "lastModified": 1655904369,
+        "narHash": "sha256-j1+x2PGIg/npPs1EBEJmgOb1Pho5WfHkbeCVpFVK0YA=",
         "owner": "SnO2WMaN",
         "repo": "satyxin",
-        "rev": "06aafbbb769a9323d893475b94f621763615a416",
+        "rev": "1913ca8d8db59f6f645015c3fbbf219d7f074237",
         "type": "github"
       },
       "original": {
@@ -410,15 +474,19 @@
         "flake-compat": "flake-compat_3",
         "flake-utils": "flake-utils_6",
         "nixpkgs": "nixpkgs_6",
+        "satysfi-base": "satysfi-base",
+        "satysfi-bibyfi": "satysfi-bibyfi",
+        "satysfi-fonts-junicode": "satysfi-fonts-junicode",
+        "satysfi-fss": "satysfi-fss",
         "satysfi-uline": "satysfi-uline",
         "satyxin": "satyxin_2"
       },
       "locked": {
-        "lastModified": 1655876009,
-        "narHash": "sha256-3obHwyHIlrAyHxY1xpat0C4s7ZVtpY+34dOQhdIGHRI=",
+        "lastModified": 1655923391,
+        "narHash": "sha256-/phkPT78+azbO5iV6GW+92V+GBX8iOtUMWbvIDYL0aU=",
         "owner": "SnO2WMaN",
         "repo": "satyxinur",
-        "rev": "66db01d2b9fef7d167d089b3607c3e4a7311c692",
+        "rev": "f31ab693fada06cb0bfa7ae1f8a8dfeddd5395eb",
         "type": "github"
       },
       "original": {
