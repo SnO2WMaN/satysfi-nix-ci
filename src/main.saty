@@ -2,6 +2,9 @@
 @require: uline/uline
 @require: bibyfi/bibyfi
 @require: bibyfi/bibyfi-IEEETran
+@require: fss/fss
+@require: fss/style
+@require: fss/fonts
 @import: ./bib
 
 let bibyfi-theme =
@@ -42,6 +45,13 @@ document(|
                 citestyle = CiteAsAuthorsEtAl;
                 name-shrink = true;
             |) (bibyfi-theme) (bibs);
+        >
+        +section{ fss }<
+            +p{
+                \font-style [bold;]{ キルロイ参上 }
+                （キルロイさんじょう、Kilroy was here、\font-style [bold;]{ キルロイ・ワズ・ヒア }）
+                は、アメリカの大衆文化などで見られる句のひとつ。
+            }
         >
     >
 >
