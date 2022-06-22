@@ -1,5 +1,18 @@
 @require: stdjareport
 @require: uline/uline
+@require: bibyfi/bibyfi
+@require: bibyfi/bibyfi-IEEETran
+@import: ./bib
+
+let bibyfi-theme =
+    BiByFiIEEETran.theme (|
+        name-shrink = true;
+        et-al = true;
+        journal-abbr = [
+            (`European Association for Signal Processing`, `EUSIPCO`);
+        ];
+    |)
+in
 
 document(|
     title = { はじめての\SATySFi; };
@@ -13,6 +26,22 @@ document(|
         >
         +section{ uline }<
             +p{ \uline{ 下線 }テスト }
+        >
+        +section{ bibyfi }<
+            +p{
+                テスト\cite [
+                    `comon1994independent`;
+                    `sawada2013multichannel`;
+                    `kitamura2017experimental`;
+                    `asano2011`;
+                    `wildcard`;
+                ];
+            }
+            +makebibliography ?:(|
+                sort-references = true;
+                citestyle = CiteAsAuthorsEtAl;
+                name-shrink = true;
+            |) (bibyfi-theme) (bibs);
         >
     >
 >
