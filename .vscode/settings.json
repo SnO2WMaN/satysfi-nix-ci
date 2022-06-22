@@ -39,5 +39,10 @@
     "．": true,
     "（": true,
     "）": true
+  },
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/github-workflow.json": [
+      ".github/workflows/*.yml"
+    ]
   }
 }
