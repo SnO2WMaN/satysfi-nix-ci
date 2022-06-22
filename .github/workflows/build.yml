@@ -1,11 +1,11 @@
-name: build-document
+name: build
 
 on:
   push:
 
 jobs:
-  actionlint:
-    name: actionlint
+  document:
+    name: document
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
