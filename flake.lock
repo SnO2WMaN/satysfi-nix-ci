@@ -302,6 +302,54 @@
         "satyxinur": "satyxinur"
       }
     },
+    "satysfi": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653979685,
+        "narHash": "sha256-fROHHrjbO+SAr1ONntTB3lDH+cDLuG/Uq9lgVmhQWUc=",
+        "owner": "gfngfn",
+        "repo": "SATySFi",
+        "rev": "133dcfb244774db14c19241bc85fc4186c297c89",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gfngfn",
+        "repo": "SATySFi",
+        "type": "github"
+      }
+    },
+    "satysfi-algorithm": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653060170,
+        "narHash": "sha256-q6am7go4fNLfQVnupX0wav1esZGq0UG/UG/j5J6UfCQ=",
+        "owner": "pickoba",
+        "repo": "satysfi-algorithm",
+        "rev": "4fd8d4d3a0f1576929a890ca5aa68d54b85fe91e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pickoba",
+        "repo": "satysfi-algorithm",
+        "type": "github"
+      }
+    },
+    "satysfi-azmath": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1652616966,
+        "narHash": "sha256-PGSyDXfxpB+ayAF46R1E+llnX8OllkiEzyscsN0qw9s=",
+        "owner": "monaqa",
+        "repo": "satysfi-azmath",
+        "rev": "67bf1e0ad09d47c0211516c91f8746f45165edf7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "monaqa",
+        "repo": "satysfi-azmath",
+        "type": "github"
+      }
+    },
     "satysfi-base": {
       "flake": false,
       "locked": {
@@ -331,6 +379,38 @@
       "original": {
         "owner": "namachan10777",
         "repo": "BiByFi",
+        "type": "github"
+      }
+    },
+    "satysfi-code-printer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653883806,
+        "narHash": "sha256-QyA8XJKgZDQUEMyDfFJiDra9jYZ5+E3gYSdNTmTEYGw=",
+        "owner": "puripuri2100",
+        "repo": "satysfi-code-printer",
+        "rev": "affa4d7a84a43a36e5388324fd3a3bd9e99da077",
+        "type": "github"
+      },
+      "original": {
+        "owner": "puripuri2100",
+        "repo": "satysfi-code-printer",
+        "type": "github"
+      }
+    },
+    "satysfi-easytable": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1651278826,
+        "narHash": "sha256-my6WLJrXeHSDfWrP4STAnr279kHNfLeKv5KIvbLc/s8=",
+        "owner": "monaqa",
+        "repo": "satysfi-easytable",
+        "rev": "14e819ae44bc8ea01a2d297de2497086e9ced45d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "monaqa",
+        "repo": "satysfi-easytable",
         "type": "github"
       }
     },
@@ -440,11 +520,11 @@
     },
     "satyxin": {
       "locked": {
-        "lastModified": 1655904369,
-        "narHash": "sha256-j1+x2PGIg/npPs1EBEJmgOb1Pho5WfHkbeCVpFVK0YA=",
+        "lastModified": 1656176784,
+        "narHash": "sha256-FMZ+vmcRpOyEs/sXmV3vksU7mkWM8C6H+16Pclr5y+4=",
         "owner": "SnO2WMaN",
         "repo": "satyxin",
-        "rev": "1913ca8d8db59f6f645015c3fbbf219d7f074237",
+        "rev": "c917e7c41b0f886cc6b73882016b0b6df8cd0fd4",
         "type": "github"
       },
       "original": {
@@ -455,11 +535,11 @@
     },
     "satyxin_2": {
       "locked": {
-        "lastModified": 1655904369,
-        "narHash": "sha256-j1+x2PGIg/npPs1EBEJmgOb1Pho5WfHkbeCVpFVK0YA=",
+        "lastModified": 1656176784,
+        "narHash": "sha256-FMZ+vmcRpOyEs/sXmV3vksU7mkWM8C6H+16Pclr5y+4=",
         "owner": "SnO2WMaN",
         "repo": "satyxin",
-        "rev": "1913ca8d8db59f6f645015c3fbbf219d7f074237",
+        "rev": "c917e7c41b0f886cc6b73882016b0b6df8cd0fd4",
         "type": "github"
       },
       "original": {
@@ -474,19 +554,24 @@
         "flake-compat": "flake-compat_3",
         "flake-utils": "flake-utils_6",
         "nixpkgs": "nixpkgs_6",
+        "satysfi": "satysfi",
+        "satysfi-algorithm": "satysfi-algorithm",
+        "satysfi-azmath": "satysfi-azmath",
         "satysfi-base": "satysfi-base",
         "satysfi-bibyfi": "satysfi-bibyfi",
+        "satysfi-code-printer": "satysfi-code-printer",
+        "satysfi-easytable": "satysfi-easytable",
         "satysfi-fonts-junicode": "satysfi-fonts-junicode",
         "satysfi-fss": "satysfi-fss",
         "satysfi-uline": "satysfi-uline",
         "satyxin": "satyxin_2"
       },
       "locked": {
-        "lastModified": 1655923391,
-        "narHash": "sha256-/phkPT78+azbO5iV6GW+92V+GBX8iOtUMWbvIDYL0aU=",
+        "lastModified": 1656176895,
+        "narHash": "sha256-oGWbRTUicwVTUThU2G9JZDXCQoLwcA9uqraf3sSn6fs=",
         "owner": "SnO2WMaN",
         "repo": "satyxinur",
-        "rev": "f31ab693fada06cb0bfa7ae1f8a8dfeddd5395eb",
+        "rev": "902cd4b6b20339522dd33055370178f4de30368d",
         "type": "github"
       },
       "original": {

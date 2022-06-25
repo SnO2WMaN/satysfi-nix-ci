@@ -49,7 +49,7 @@ document(|
         +section{ fss }<
             +p{
                 \font-style [bold;]{ キルロイ参上 }
-                （キルロイさんじょう、Kilroy was here、\font-style [bold;]{ キルロイ・ワズ・ヒア }）
+                （キルロイさんじょう、\font-style [italic;]{ Kilroy was here }、\font-style [bold;]{ キルロイ・ワズ・ヒア }）
                 は、アメリカの大衆文化などで見られる句のひとつ。
             }
         >
