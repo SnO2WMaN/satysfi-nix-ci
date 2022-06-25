@@ -567,11 +567,11 @@
         "satyxin": "satyxin_2"
       },
       "locked": {
-        "lastModified": 1656176895,
-        "narHash": "sha256-oGWbRTUicwVTUThU2G9JZDXCQoLwcA9uqraf3sSn6fs=",
+        "lastModified": 1656177381,
+        "narHash": "sha256-ttHSlz0pslPjw3TjhWJF+OYftb1mFJ6w/ub3Oxd8sBU=",
         "owner": "SnO2WMaN",
         "repo": "satyxinur",
-        "rev": "902cd4b6b20339522dd33055370178f4de30368d",
+        "rev": "2156187aaded888f78b3cde908dac503f25ded5f",
         "type": "github"
       },
       "original": {
