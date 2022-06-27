@@ -37,12 +37,6 @@
               "uline"
               "bibyfi"
               "fss"
-              "derive"
-              "algorithm"
-              "chemfml"
-              "ruby"
-              "class-slydifi"
-              "easytable"
             ];
           };
           main = pkgs.satyxin.buildDocument {
