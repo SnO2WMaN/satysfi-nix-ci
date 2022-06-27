@@ -30,24 +30,36 @@
             satysfi-tools.overlay
           ];
         };
-      in rec {
-        packages.main = pkgs.satyxin.buildDocument {
-          name = "main";
-          src = ./src;
-          filename = "main.saty";
-          buildInputs = with pkgs.satyxinPackages; [
-            uline
-            bibyfi
-            fss
-          ];
+      in {
+        packages = rec {
+          satydist = pkgs.satyxin.buildSatydist {
+            packages = [
+              "uline"
+              "bibyfi"
+              "fss"
+              "derive"
+              "algorithm"
+              "chemfml"
+              "ruby"
+              "class-slydifi"
+              "easytable"
+            ];
+          };
+          main = pkgs.satyxin.buildDocument {
+            inherit satydist;
+            name = "main";
+            src = ./src;
+            entrypoint = "main.saty";
+          };
         };
-        defaultPackage = packages.main;
+        defaultPackage = self.packages."${system}".main;
 
         devShell = pkgs.devshell.mkShell {
           imports = [
             (pkgs.devshell.importTOML ./devshell.toml)
           ];
         };
+        checks = self.packages.${system};
       }
     );
 }
