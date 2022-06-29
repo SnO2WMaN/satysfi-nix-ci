@@ -31,3 +31,18 @@ jobs:
         with:
           name: docs
           path: result/docs
+
+  gh-pages:
+    name: gh-pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/download-artifact@v3
+        id: dl
+        with:
+          name: docs
+          path: public
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ steps.dl.outputs.download-path }}
