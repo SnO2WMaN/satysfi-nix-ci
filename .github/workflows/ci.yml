@@ -16,8 +16,8 @@ jobs:
   #        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
   #     - run: nix-shell --run "treefmt --fail-on-change"
 
-  document:
-    name: document
+  build:
+    name: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -34,6 +34,7 @@ jobs:
 
   gh-pages:
     name: gh-pages
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
